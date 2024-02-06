@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+
+    <link id="stylesheet" rel="stylesheet" href="DarkMode.css">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .logo1 {
+            width: 40px;
+            height: 40px;
+        }
+
+        @media screen and (max-width: 1200px){
+            .element {
+                flex: 100%;
+                max-width: 100%;
+            }
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <ul>
+        <li><a href="#home"><b>Home</b></a></li>
+        <li><a href="#AboutMeSection"><b>About</b></a></li>
+        <li><a href="#EducationSection"><b>Education</b></a></li>
+        <li><a href="#achievements"><b>Achievements</b></a></li>
+        <li><a href="#skills"><b>Skills</b></a></li>
+        <li><a href="#blog"><b>Blog</b></a></li>
+        <li><a href="Resume.pdf" target="_blank"><b>Resume</b></a></li>
+        <li><a href="#socials"><b>Socials</b></a></li>
+        <li><button class="toggleButton" onclick="changeMode()">Toggle Mode</button></li>
+        
+    </ul>
+
+    <br>
+
+    <img style="width: 100%; height: auto;" src="images/—Pngtree—greetings welcome newcomers welcome home_6749023.png">
+
+    <br>
+    <p class="LLLL">
+        To view the hidden content, hover over the block for a second.
+    </p>
+    <div class="flexbox">
+
+        <div class="element">
+            <a id="AboutMeSection"></a>
+            <h1 style="color: whitesmoke;">About Me:</h1>
+            
+            <div class="element2">
+                <img class="pfp" src="images/MyPhoto.jpeg">
+                <p style="font-size: larger;">
+                    Hi, this is a bit about me!!!
+                    <br><br>
+                    Hey there, my name is Krishna! If you're reading this, you're looking at
+                    my best try at implementing a web page about myself.<br>
+                    I was born in Cambridge, UK, and soon shifted to Liverpool when I was still young.
+                    It was there that I developed my love for football, and in particular, Liverpool FC.
+                    At the age of 12 I shifted to Hyderabad, and took and admission at Global Edge School Madhapur. 
+                    I studied there till class 10, and made some pretty amazing friends and memories when I was there.
+                    I then joined Sri Chaitanya in class 11, where I made some pretty terrible memories, and right now, I'm
+                    studying at IIIT-H.
+                </p>
+            </div>
+        </div>
+        <div class="element">
+            <a id="EducationSection"></a>
+            <h1 style="color: whitesmoke;">Educational Background:</h1>
+            <div class="element2">
+
+                <p style="font-size: larger;">
+                    I enrolled in Prescot Primary School in the year 2009, and learnt there till the year 2012.
+                    <br><br>
+                    In the year 2012, I enrolled in Global Edge School Madhapur and studied there till the year 2021.
+                    <br><br>
+                    In 2021, I enrolled in Sri Chaitanya Educational Institution, and completed my intermediate there.
+                    <br><br>
+                    In 2023, I joined IIIT Hyderabad, where I am currently pursuing B-Tech.      
+                </p>
+
+            </div>
+        </div>
+        <div class="element">
+            <a id="achievements"></a>
+            <h1 style="color: whitesmoke;">My Achievements:</h1>
+            <div class="element2">
+
+                <p style="font-size: larger;">
+                    Distinguished Performance in ASSET (Assessment of Scholastic Skills through Educational Testing)<br><br>
+                    Completion of ImprovePedia (a workshop for enhancing leadership, speaking and team-building skills)<br><br>
+                    Participated in Techradiance, a workshop held by IIT Hyderabad<br><br>
+                    Completed Cognosia Skill development program<br><br>
+                    Participated in HSBC's Train Green Program<br><br>
+                    Qualified for multiple interschool science project competitions<br><br>
+                    Srimati Namrata Kaur Award for Academic Excellence (even I have no clue what this is meant to represent)<br><br>
+                    Scored a 1570 in the SAT (don't ask me about my JEE rank though)
+                </p>
+
+            </div>
+        </div>
+        <div class="element">
+            <a id="skills"></a>
+            <h1 style="color: whitesmoke;">My Skills:</h1>
+            <div class="element2">
+
+                <p style="font-size: larger;">
+                    Leadership<br><br>
+                    Critical-thinking<br><br>
+                    Adaptability<br><br>
+                    Hard-working<br><br>
+                    Communication<br><br>
+                    Creativity<br><br>
+                    Teamwork<br><br>
+                    Emotional Intelligence<br><br>
+                    Time Management<br><br>
+                    Quick-learning<br><br>
+                    Ability to code in languages such as C, C++, javascript, Python, etc.<br><br>
+                    Bilingual<br><br>
+                    Collaboration<br><br>
+                </p>
+
+            </div>
+        </div>
+
+    </div>
+    
+    <br><br>
+    <a id="blog"></a>
+    <h1><b>Blog Section:</b></h1>
+    <br><br>
+    <div class="flexbox">
+        <div class="element">
+            <h1 style="color: whitesmoke;">Blog 1:</h1>
+            <div class="element3" id="#divClick">
+                <p style="font-size: x-large"><a href="BLOG1.html" class="BlogLink" target="_blank">Click here to go to the first blog!</a></p>
+                <a href="BLOG1.html" target="_blank" class="fill-div"></a>
+            </div>
+        </div>
+    
+        <div class="element">
+            <h1 style="color: whitesmoke;">Blog 2:</h1>
+            <div class="element3" id="#divClick">
+                <p style="font-size: x-large"><a href="BLOG2.html" class="BlogLink" target="_blank">Click here to go to the second blog!</a></p>
+                <a href="BLOG2.html" target="_blank" class="fill-div"></a>
+            </div>
+        </div>
+    </div>
+
+    <script src="toggleMode.js"></script>
+
+    <br><br><br><br><br>
+    <h3>Socials:</h3>
+    <br>
+    <ul>
+        <a id="socials"></a>
+        <li><a href="https://www.instagram.com/krishna.jakka_9/" target="_blank"><img src="images/pngimg.com - instagram_PNG9.png" class="logo1"></a></li>
+        <li><a href="mailto:krishnajakka009@gmail.com" target="_blank"><img src="images/logo-gmail-9954.png" class="logo1"></a></li>
+        <li><a href="https://github.com/KJsquare9" target="_blank"><img src="images/QvVHMnvC5QVD.png" class="logo1"></a></li>
+        <li><a href="https://twitter.com/KrishnaJak1994" target="_blank"><img src="images/—Pngtree—twitter social media round icon_8704823.png" class="logo1"></a></li>
+        <li><a href="mailto:krishna.jakka@students.iiit.ac.in" target="_blank"><img src="images/logo-outlook-34065.png" class="logo1"></a></li>
+    </ul>
+    
+</body>
+</html>

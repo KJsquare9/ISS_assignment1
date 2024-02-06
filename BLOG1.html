@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog 1</title>
+    <link rel="stylesheet" id="stylesheet" href="DarkMode.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .heart {
+            width: 70px;
+            height: 70px;
+        }
+    </style>
+</head>
+<body>
+
+    <button onclick="changeMode()" class="toggleButton">Toggle Mode</button>
+    <br><br>
+
+    <div class="flexbox">
+        
+        <div class="element">
+            <h1 style="color: whitesmoke;">BLOG:</h1>
+            <div class="element2" style="height: 1000px; animation: none; overflow: scroll;">
+                    <h2 class="insideHeader">Football's Greatest Club: Liverpool</h2>
+                <p style="font-size: larger;">
+                    Liverpool's storied history began with a league title in 1901, 
+                    setting the stage for decades of domestic and international success. 
+                    The iconic Anfield, home to the passionate Kop, remains a symbol of the 
+                    club's enduring spirit.
+                    <br><br>
+                    Under the managerial brilliance of Bill Shankly and Bob Paisley,
+                    Liverpool dominated the '70s and '80s. Their legacy laid the groundwork 
+                    for continued success under subsequent managers like Kenny Dalglish and
+                    Jurgen Klopp
+                    <br><br>
+                    Liverpool's European conquests, including the unforgettable 2005 Champions 
+                    League comeback in Istanbul, showcase the club's prowess on the grand stage. Recent 
+                    successes under Klopp have added to the illustrious trophy cabinet.
+                    <br><br>
+                    The Red Army, Liverpool's global fanbase, passionately supports the club across 
+                    the world. The values of passion, unity, and resilience create a sense of belonging 
+                    that transcends geographical boundaries.
+                    <br><br>
+                    Liverpool FC's journey, encapsulated by the iconic anthem "You'll Never Walk Alone," 
+                    is a testament to the enduring spirit of football. From historic triumphs to the c
+                    urrent pursuit of glory, the Reds have earned their place among the footballing 
+                    elite, solidifying a legacy that continues to inspire fans globally.
+                    <br><br>
+                </p>
+            </div>
+        </div>
+        <div class="element">
+            <h1 style="color: whitesmoke;">COMMENTS:</h1>
+            <div class="element2" style="height: 1000px; animation: none; overflow: scroll;">
+                <p style="font-size: larger;" id="commentToDisplay"></p>
+                <label for="userInput">Add Comment: </label>
+                <input type="text" id="comment">
+                <button onclick="displayComment()">Add Comment</button>
+            </div>
+        </div>
+
+
+    </div>
+
+    <br><br>
+
+    <button onclick="heartChange()" class="heartButton"><img src="images/pngimg.com - heart_PNG51131.png" id="hearT" class="heart"></button>
+    <p id="LIKES" class="Likes">Likes: 0</p>
+
+    <script src="toggleMode.js"></script>
+
+</body>
+</html>

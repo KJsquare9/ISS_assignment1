@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog 1</title>
+    <link rel="stylesheet" id="stylesheet" href="DarkMode.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .heart {
+            width: 70px;
+            height: 70px;
+        }
+    </style>
+</head>
+<body>
+
+    <button onclick="changeMode()" class="toggleButton">Toggle Mode</button>
+
+    <br><br>
+
+    <div class="flexbox">
+        
+        <div class="element">
+            <h1 style="color: whitesmoke;">BLOG:</h1>
+            <div class="element2" style="height: 1000px; animation: none; overflow: scroll;">
+                    <h2 class="insideHeader">Pele: The King of Football</h2>
+                <p style="font-size: larger;">
+                    In the illustrious history of football, one name stands out as a beacon of greatness - 
+                    Edson Arantes do Nascimento, better known as Pele. Born on October 23, 1940, 
+                    in Três Corações, Brazil, Pele is widely regarded as one of the greatest footballers 
+                    to have ever graced the pitch. This short blog explores the remarkable journey of the man 
+                    who became synonymous with the "beautiful game."
+                    <br><br>
+                    Pele's journey began in poverty, playing football barefoot on the streets of Bauru. 
+                    Discovered by a local coach, he joined the Santos FC youth academy at just 15 years old. 
+                    His extraordinary talent quickly emerged, and by 16, Pele made his professional debut for Santos. 
+                    In 1958, at the age of 17, he led Brazil to their first World Cup victory, showcasing a level of 
+                    skill and composure beyond his years.
+                    <br><br>
+                    Pele's playing style was a mesmerizing blend of finesse, agility, and goal-scoring prowess. 
+                    His ability to effortlessly navigate through defenders and deliver awe-inspiring goals earned 
+                    him the nickname "The Black Pearl." Whether with Santos or the New York Cosmos, Pele's impact 
+                    was transformative, bringing flair and joy to the sport.
+                    <br><br>
+                    Pele's legacy is indelibly linked to the FIFA World Cup. He remains the only player to have won 
+                    three World Cup titles (1958, 1962, and 1970). His performances in these tournaments showcased 
+                    not only his individual brilliance but also his leadership and ability to elevate his teammates.
+                    <br><br>
+                    Pele's goal-scoring record is staggering - over 1,000 goals in official matches - but his influence 
+                    transcended statistics. Off the pitch, he became a global ambassador for the sport, promoting peace, 
+                    unity, and goodwill. His infectious smile and sportsmanship endeared him to fans worldwide, creating a 
+                    lasting impact that extended far beyond his playing days.
+                    <br><br>
+                    Pele's influence extends beyond football. His impact on popular culture is evident, from movies to music, 
+                    where his name is synonymous with excellence. The "Pele Era" in football left an indelible mark on the sport's 
+                    global expansion, inspiring generations of players to emulate his style and grace.
+                    <br><br>
+                    Pele's legacy is a testament to the transformative power of sport. His journey from a humble beginning to global 
+                    superstardom reflects the universality of football and its ability to bridge cultures and transcend socio-economic 
+                    barriers. As the world continues to celebrate the legacy of this football icon, Pele remains a symbol of the beauty 
+                    and joy that the sport brings to millions around the globe. "O Rei" (The King) may have retired from the pitch, but 
+                    his impact on the beautiful game and the hearts of fans endures.
+                    <br><br>
+                </p>
+            </div>
+        </div>
+        <div class="element">
+            <h1 style="color: whitesmoke;">COMMENTS:</h1>
+            <div class="element2" style="height: 1000px; animation: none; overflow: scroll;">
+                <p style="font-size: larger;" id="commentToDisplay"></p>
+                <label for="userInput">Add Comment: </label>
+                <input type="text" id="comment">
+                <button onclick="displayComment()">Add Comment</button>
+            </div>
+        </div>
+
+
+    </div>
+
+    <br><br>
+
+    <button onclick="heartChange()" class="heartButton"><img src="pngimg.com - heart_PNG51131.png" id="hearT" class="heart"></button>
+    <p id="LIKES" class="Likes">Likes: 0</p>
+
+    <script src="toggleMode.js"></script>
+
+</body>
+</html>

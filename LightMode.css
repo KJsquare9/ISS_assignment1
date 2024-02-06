@@ -1,0 +1,161 @@
+body {
+    background-color: white;
+    color: black;
+}
+
+.LLLL {
+    font-size: large;
+    color: black;
+}
+
+ul {
+    border-style: solid;
+    border-width: 5px;
+    border-color: orangered;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: orange;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    border-right: 1px solid whitesmoke;
+}
+
+li a {
+    display: block;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 15px 15px;
+    text-align: center;            
+}
+
+li a:hover {
+    background-color: orangered;
+}
+
+#divClick {
+    width: 80%;
+    height: auto;
+}
+
+.flexbox {
+    border-style: solid;
+    border-width: 5px;
+    border-color: orangered;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: orange;
+    padding: 5px;
+}
+
+.element {
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+    max-width: 50%;
+    padding: 0px 4px;
+}
+
+.element2 {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 5px;
+    border-color: orangered;
+    background-color: whitesmoke;
+    color: darkslategray;
+    height: 500px;
+    width: 80%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    transition: height 0.5s;
+    transition-delay: 0.5s;
+}
+
+.insideHeader {
+    color: black;
+}
+
+.element3 {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 5px;
+    border-color: orangered;
+    background-color: whitesmoke;
+    color: darkslategray;
+    height: 200px;
+    width: 80%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+}
+
+.element2:hover {
+    height: 1000px;
+}
+
+.pfp {
+    width: 70%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: auto;
+    border-style: solid; 
+    border-width: 5px; 
+    border-color: orangered;
+}
+
+.toggleButton {
+    display: block;
+    background-color: orange;
+    animation: animation1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    text-decoration: none;
+    padding: 15px 15px;
+    text-align: center;
+    
+}
+
+.toggleButton:hover {
+    background-color: orangered;
+}
+
+a.fill-div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+.heartButton {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+@keyframes animation1 {
+    0%      {color: whitesmoke;}
+    20%     {color: aqua;}
+    40%     {color: chartreuse;}
+    60%     {color: darkkhaki;}
+    80%     {color: deeppink;}
+    100%    {color: whitesmoke;}
+}
+
+.BlogLink {
+    text-decoration: none;
+    text-decoration-color: black;
+}
